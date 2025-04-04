@@ -88,15 +88,6 @@ weather-app/
 
 ---
 
-## ✅ To-Do / Improvements
-
-- [ ] Add 3-day forecast
-- [ ] Dark mode support
-- [ ] Loading spinner instead of text
-- [ ] Save recent searches to local storage
-
----
-
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
