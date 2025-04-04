@@ -1,13 +1,14 @@
+//API
+// login in this website to get your city api key : https://www.api-ninjas.com/api/city
+// login in this website to get your weather api key : https://www.weatherapi.com/
+const city_api_key = 'city-api-key'; 
+const weather_api_key = 'weather-api-key';
+
 const city_input = document.getElementById('city-input');
 const city_suggestion = document.getElementById('city-suggestion');
 const weather_result = document.getElementById('weather-result');
-// login in this website to get your city api key : https://www.api-ninjas.com/api/city
-const city_api_key = 'city-api-key'; 
-// login in this website to get your weather api key : https://www.weatherapi.com/
-const weather_api_key = 'weather-api-key';
+
 let city_name = "";
-let longitude = "";
-let latitude = "";
 
 async function suggestCity(cityName) {
     if (!cityName) {
@@ -33,8 +34,6 @@ async function suggestCity(cityName) {
         } else {
             city_suggestion.innerHTML = `${data[0].name} - ${data[0].country}`;
             city_name = data[0].name;
-            longitude = data[0].longitude;
-            latitude = data[0].latitude;
         }
     } 
     catch (error) {
