@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="weather-app">
+            <div id="city-input-section">
+                <input type="text" id="city-input" placeholder="City-Name" oninput="suggestCity(this.value.trim())" autocomplete="off"/>
+                <button onclick="showData()" class="show-btn">Show</button>
+            </div>
+            <div id="city-suggestion" onclick="showData()"></div>
+            <div id="weather-result">Weather Data</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
