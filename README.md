@@ -1,6 +1,6 @@
 # 🌦️ Weather App with City Suggestion
 
-A simple, responsive weather web application built using **JavaScript**, **HTML**, and **CSS**, which allows users to search for any city and instantly view current weather data.
+A simple, responsive weather web application built using **JavaScript**, **HTML**, and **CSS**, which allows users to search for any larg city and instantly view current weather data.
 
 This app features **real-time city suggestions** using the [API Ninjas City API](https://api-ninjas.com/api/city) and live weather data from the [WeatherAPI](https://www.weatherapi.com/).
 
