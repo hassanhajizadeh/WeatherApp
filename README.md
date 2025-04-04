@@ -11,7 +11,7 @@ This app features **real-time city suggestions** using the [API Ninjas City API]
 - 🌇 **City Auto-Suggestion** as you type  
 - ☁️ **Real-time Weather Data** based on selected city
 - 🌡️ Feels-like temperature, wind speed, humidity, and more
-- 🌤️ Weather condition icons & readable summaries
+- 🌤️ Weather condition icons .
 - 💡 Error handling for invalid inputs or API issues
 - 📱 Responsive layout (mobile & desktop friendly)
 
