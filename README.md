@@ -8,12 +8,12 @@ This app features **real-time city suggestions** using the [API Ninjas City API]
 
 ## 🔍 Features
 
-- 🌇 **City Auto-Suggestion** as you type  
-- ☁️ **Real-time Weather Data** based on selected city
-- 🌡️ Feels-like temperature, wind speed, humidity, and more
-- 🌤️ Weather condition icons .
-- 💡 Error handling for invalid inputs or API issues
-- 📱 Responsive layout (mobile & desktop friendly)
+-   🌇 **City Auto-Suggestion** as you type
+-   ☁️ **Real-time Weather Data** based on selected city
+-   🌡️ Feels-like temperature, wind speed, humidity, and more
+-   🌤️ Weather condition icons .
+-   💡 Error handling for invalid inputs or API issues
+-   📱 Responsive layout (mobile & desktop friendly)
 
 ---
 
@@ -21,15 +21,16 @@ This app features **real-time city suggestions** using the [API Ninjas City API]
 
 ![demo 1](demo1.png)
 ![demo 2](demo2.png)
+
 ---
 
 ## 🔧 Tech Stack
 
-- **HTML5**
-- **CSS3**
-- **JavaScript (ES6+)**
-- **[API Ninjas - City API](https://api-ninjas.com/api/city)** for location search
-- **[WeatherAPI](https://www.weatherapi.com/)** for weather data
+-   **HTML5**
+-   **CSS3**
+-   **JavaScript (ES6+)**
+-   **[API Ninjas - City API](https://api-ninjas.com/api/city)** for location search
+-   **[WeatherAPI](https://www.weatherapi.com/)** for weather data
 
 ---
 
@@ -37,30 +38,30 @@ This app features **real-time city suggestions** using the [API Ninjas City API]
 
 1. **Clone the repository:**
 
-   ```bash
-   git clone https://github.com/your-username/weather-app.git
-   cd weather-app
-   ```
+    ```bash
+    git clone https://github.com/hassanhajizadeh/weatherApp.git
+    cd weatherApp
+    ```
 
 2. **Replace API keys:**
 
-   In your JavaScript file (e.g. `script.js`), insert your API keys:
+    In your JavaScript file (e.g. `script.js`), insert your API keys:
 
-   ```javascript
-   const city_api_key = "YOUR_API_NINJAS_KEY";
-   const weather_api_key = "YOUR_WEATHERAPI_KEY";
-   ```
+    ```javascript
+    const city_api_key = "YOUR_API_NINJAS_KEY";
+    const weather_api_key = "YOUR_WEATHERAPI_KEY";
+    ```
 
 3. **Open in browser:**
 
-   Just open `index.html` in your favorite browser.
+    Just open `index.html` in your favorite browser.
 
 ---
 
 ## 🗝️ Get Your Free API Keys
 
-- [API Ninjas City API](https://api-ninjas.com/api/city)
-- [WeatherAPI](https://www.weatherapi.com/)
+-   [API Ninjas City API](https://api-ninjas.com/api/city)
+-   [WeatherAPI](https://www.weatherapi.com/)
 
 > Both services offer free tiers with generous limits.
 
@@ -96,8 +97,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 🙌 Acknowledgements
 
-- [API Ninjas](https://api-ninjas.com/) for city data
-- [WeatherAPI](https://www.weatherapi.com/) for weather data
+-   [API Ninjas](https://api-ninjas.com/) for city data
+-   [WeatherAPI](https://www.weatherapi.com/) for weather data
 
 ---
 
